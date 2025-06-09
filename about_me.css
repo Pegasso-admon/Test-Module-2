@@ -1,0 +1,36 @@
+.main__section--paragraph {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.main__section--photo {
+    animation: fade 2s ease-in-out;
+}
+
+.main__centered--content {
+    padding: 100px;
+    background-color: #ffffff00;
+    margin: 100px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 2px rgb(0 255 180);
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: rgba(0, 255, 255, 0.438);
+    font-weight: bold;
+    animation: change-color 2s infinite;
+}
+
+@keyframes change-color {
+    from { background-color: rgba(0, 255, 255, 0.438);}
+    to { background-color: rgba(255, 7, 7, 0.349);}
+}
