@@ -35,3 +35,30 @@
     display: inline-flex;
     
 }
+
+@media (max-width: 768px) {
+    .main__box--buttons {
+        width: 407px;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__main--title {
+        width: auto;
+    }
+
+    .main__centered--content {
+        align-items: center;
+        padding: 20px;
+    }
+
+    .main__box--buttons {
+        width: fit-content;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

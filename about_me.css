@@ -7,10 +7,6 @@ img {
     border-radius: 20px;
 }
 
-.main__section--photo {
-    animation: fade 2s ease-in-out;
-}
-
 .main__centered--content {
     padding: 100px;
     background-color: #ffffff00;
@@ -33,4 +29,32 @@ li {
 @keyframes change-color {
     from { background-color: rgba(0, 255, 255, 0.438);}
     to { background-color: rgba(255, 7, 7, 0.349);}
+}
+
+@media (max-width: 768px) {
+    .main__section--list {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .header__main--title {
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__main--title {
+        width: auto;
+    }
+
+    .main__centered--content {
+        align-items: center;
+        padding: 20px;
+        margin-inline: auto;
+    }
+
+    .main__section--list {
+        margin: 0px;
+        padding: 0px;
+    }
 }
